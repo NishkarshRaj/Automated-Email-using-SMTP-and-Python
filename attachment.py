@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase 
 from email import encoders 
    
-fromaddr = "nishkarshraj000@gmail.com"
-toaddr = "shreyasingh_18@yahoo.com"
+fromaddr = "<<Sender>>"
+toaddr = "<<Receiver>>"
    
 # instance of MIMEMultipart 
 msg = MIMEMultipart() 
