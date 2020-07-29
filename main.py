@@ -13,7 +13,7 @@ s.login("nishkarshraj000@gmail.com","[pass]")
 message = "Hello, World!"
   
 # Send Mail 
-s.sendmail("nishkarshraj000@gmail.com", "shreyasingh_18@yahoo.com", message) 
+s.sendmail("<<sender>>", "<<receiver>>", message) 
   
 # Terminate SMTP Session 
 s.quit() 
